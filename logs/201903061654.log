@@ -1,0 +1,14 @@
+2019-03-06 16:54:51,748 - phone - INFO - 读取手机信息,手机型:Android
+2019-03-06 16:54:51,753 - phone - INFO - 找到模拟机:127.0.0.1:62001
+2019-03-06 16:54:51,754 - phone - INFO - 找到模拟机版本:6.2.7.0
+2019-03-06 16:55:19,445 - BasePage - INFO - 成功找到元素
+2019-03-06 16:55:21,999 - BasePage - INFO - 长按
+2019-03-06 16:55:22,072 - BasePage - INFO - 成功找到元素
+2019-03-06 16:55:22,400 - BasePage - INFO - 点击操作成功
+2019-03-06 16:55:24,044 - BasePage - INFO - Had take screenshot and save to folder：/screenshots
+2019-03-06 16:55:24,044 - BasePage - INFO - 截图成功。
+2019-03-06 16:55:24,343 - BasePage - INFO - 成功找到元素
+2019-03-06 16:55:25,911 - BasePage - INFO - 向下拖拽成功
+2019-03-06 16:55:28,240 - BasePage - INFO - Had take screenshot and save to folder：/screenshots
+2019-03-06 16:55:28,241 - BasePage - INFO - 截图成功。
+2019-03-06 16:55:28,241 - phone - INFO - 关闭app
