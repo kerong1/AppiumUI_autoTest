@@ -3,7 +3,7 @@ import HTMLTestRunner
 import os
 import sys
 
-sys.path.append("E:\\Dis\\")
+sys.path.append("E:\\Appium\\")
 dir='./'
 c_path=os.path.dirname(os.path.abspath('.'))
 report_path=os.path.join(c_path,'report')

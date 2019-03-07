@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>智能备忘录测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2019-03-06 19:09:06</p>
-<p class='attribute'><strong>Duration:</strong> 0:08:02.314883</p>
-<p class='attribute'><strong>Status:</strong> Pass 7 Error 1</p>
+<p class='attribute'><strong>Start Time:</strong> 2019-03-07 10:56:21</p>
+<p class='attribute'><strong>Duration:</strong> 0:05:41.257328</p>
+<p class='attribute'><strong>Status:</strong> Pass 3 Error 5</p>
 
 <p class='description'>用例执行情况</p>
 </div>
@@ -221,31 +221,57 @@ function showOutput(id, name) {
     <td>View</td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>test_app_bwl1.BeiwangluSearch</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td><a href="javascript:showClassDetail('c1',1)">Detail</a></td>
 </tr>
 
-<tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_app_zy1</div></td>
+<tr id='ft1.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_app_zy1</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt1.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft1.1')" >
+        error</a>
 
-    <div id='div_pt1.1' class="popup_window">
+    <div id='div_ft1.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt1.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft1.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt1.1: 
+ft1.1: Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl1.py", line 8, in test_app_zy1
+    h.Tuichu()
+  File "E:\Appium\Pageobjects\app_homepage.py", line 74, in Tuichu
+    self.click(*self.mulu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl1.py", line 8, in test_app_zy1
+    h.Tuichu()
+  File "E:\Appium\Pageobjects\app_homepage.py", line 74, in Tuichu
+    self.click(*self.mulu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
 
         </pre>
     </div>
@@ -254,31 +280,57 @@ pt1.1:
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>test_app_bwl2.BeiwangluSearch</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
-<tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_app_zy2</div></td>
+<tr id='ft2.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_app_zy2</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft2.1')" >
+        error</a>
 
-    <div id='div_pt2.1' class="popup_window">
+    <div id='div_ft2.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft2.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt2.1: 
+ft2.1: Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl2.py", line 22, in test_app_zy2
+    h.Tuichu()
+  File "E:\Appium\Pageobjects\app_homepage.py", line 74, in Tuichu
+    self.click(*self.mulu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl2.py", line 22, in test_app_zy2
+    h.Tuichu()
+  File "E:\Appium\Pageobjects\app_homepage.py", line 74, in Tuichu
+    self.click(*self.mulu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
 
         </pre>
     </div>
@@ -287,31 +339,57 @@ pt2.1:
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>test_app_bwl3.BeiwangluSearch</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td><a href="javascript:showClassDetail('c3',1)">Detail</a></td>
 </tr>
 
-<tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_app_zy3</div></td>
+<tr id='ft3.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_app_zy3</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft3.1')" >
+        error</a>
 
-    <div id='div_pt3.1' class="popup_window">
+    <div id='div_ft3.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft3.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt3.1: 
+ft3.1: Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl3.py", line 8, in test_app_zy3
+    h.xiugai('llvvlllvvv')
+  File "E:\Appium\Pageobjects\app_homepage.py", line 85, in xiugai
+    self.click(*self.mulu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl3.py", line 8, in test_app_zy3
+    h.xiugai('llvvlllvvv')
+  File "E:\Appium\Pageobjects\app_homepage.py", line 85, in xiugai
+    self.click(*self.mulu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
 
         </pre>
     </div>
@@ -345,11 +423,11 @@ pt3.1:
         <pre>
         
 ft4.1: Traceback (most recent call last):
-  File "E:\Appium\testsuites\test_app_bwl4.py", line 8, in test_app_zy4
-    h.tianjia2('asdfghjkl')
-  File "E:\Appium\Pageobjects\app_homepage.py", line 97, in tianjia2
-    self.click(*self.tianjiabeiwang)
-  File "E:\Appium\Pageobjects\base.py", line 33, in click
+  File "E:\Appium\testsuites\test_app_bwl4.py", line 7, in test_app_zy4
+    h.tianjia1('zxcvbnffgm')
+  File "E:\Appium\Pageobjects\app_homepage.py", line 93, in tianjia1
+    self.sendkeys(text,*self.tianjiawenben)
+  File "E:\Appium\Pageobjects\base.py", line 29, in sendkeys
     el=self.find_element(*loc)
   File "E:\Appium\Pageobjects\base.py", line 21, in find_element
     WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
@@ -358,11 +436,11 @@ ft4.1: Traceback (most recent call last):
 selenium.common.exceptions.TimeoutException: Message: 
 
 Traceback (most recent call last):
-  File "E:\Appium\testsuites\test_app_bwl4.py", line 8, in test_app_zy4
-    h.tianjia2('asdfghjkl')
-  File "E:\Appium\Pageobjects\app_homepage.py", line 97, in tianjia2
-    self.click(*self.tianjiabeiwang)
-  File "E:\Appium\Pageobjects\base.py", line 33, in click
+  File "E:\Appium\testsuites\test_app_bwl4.py", line 7, in test_app_zy4
+    h.tianjia1('zxcvbnffgm')
+  File "E:\Appium\Pageobjects\app_homepage.py", line 93, in tianjia1
+    self.sendkeys(text,*self.tianjiawenben)
+  File "E:\Appium\Pageobjects\base.py", line 29, in sendkeys
     el=self.find_element(*loc)
   File "E:\Appium\Pageobjects\base.py", line 21, in find_element
     WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
@@ -478,31 +556,57 @@ pt7.1:
     </td>
 </tr>
 
-<tr class='passClass'>
+<tr class='errorClass'>
     <td>test_app_bwl8.BeiwangluSearch</td>
     <td>1</td>
+    <td>0</td>
+    <td>0</td>
     <td>1</td>
-    <td>0</td>
-    <td>0</td>
     <td><a href="javascript:showClassDetail('c8',1)">Detail</a></td>
 </tr>
 
-<tr id='pt8.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_app_zy8</div></td>
+<tr id='ft8.1' class='none'>
+    <td class='errorCase'><div class='testcase'>test_app_zy8</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt8.1')" >
-        pass</a>
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_ft8.1')" >
+        error</a>
 
-    <div id='div_pt8.1' class="popup_window">
+    <div id='div_ft8.1' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt8.1').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_ft8.1').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt8.1: 
+ft8.1: Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl8.py", line 8, in test_app_zy8
+    h.Tuichu()
+  File "E:\Appium\Pageobjects\app_homepage.py", line 76, in Tuichu
+    self.click(*self.tuichu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+Traceback (most recent call last):
+  File "E:\Appium\testsuites\test_app_bwl8.py", line 8, in test_app_zy8
+    h.Tuichu()
+  File "E:\Appium\Pageobjects\app_homepage.py", line 76, in Tuichu
+    self.click(*self.tuichu)
+  File "E:\Appium\Pageobjects\base.py", line 33, in click
+    el=self.find_element(*loc)
+  File "E:\Appium\Pageobjects\base.py", line 21, in find_element
+    WebDriverWait(self.driver,10).until(EC.visibility_of_element_located(loc))
+  File "E:\python\lib\site-packages\selenium\webdriver\support\wait.py", line 80, in until
+    raise TimeoutException(message, screen, stacktrace)
+selenium.common.exceptions.TimeoutException: Message: 
+
+
 
         </pre>
     </div>
@@ -514,9 +618,9 @@ pt8.1:
 <tr id='total_row'>
     <td>Total</td>
     <td>8</td>
-    <td>7</td>
+    <td>3</td>
     <td>0</td>
-    <td>1</td>
+    <td>5</td>
     <td>&nbsp;</td>
 </tr>
 </table>
